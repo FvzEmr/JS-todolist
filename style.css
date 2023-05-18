@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: dimgray;
+    font-family: sans-serif;
+
+
+}
+
+.container{
+width: 100%;
+text-align: center;
+margin-top: 100px;
+    
+}
+
+#title{
+    text-align: center;
+    font-size: 65px;
+
+}
+
+#inputtext{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 30px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: darkblue;
+    font-family: sans-serif;
+}
+
+#add{
+    height: 46px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: greenyellow;
+    font-family: sans-serif;
+}
+
+#add:active {
+    background: green;
+}
+
+#clear{
+    height: 46px;
+    width: 90px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: red;
+    font-family: sans-serif;
+}
+#clear:active {
+    background: darkred;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: red;
+    text-transform: capitalize;
+}
+
+.ToDos{
+    margin-top: 30px;
+
+}
+
+#link{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+    height: 67px;
+    width: 90px;
+}
